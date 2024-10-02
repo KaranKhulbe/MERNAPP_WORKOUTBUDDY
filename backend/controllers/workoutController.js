@@ -48,6 +48,9 @@ const deleteWorkout = async (req,res)=>{
      res.status(200).json(workout)
 }
 //update a workout
+const updateWorkout = async(req,res)=>{
+    const
+}
 
 module.exports={
     createWorkout,
