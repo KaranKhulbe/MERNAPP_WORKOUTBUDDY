@@ -24,7 +24,7 @@ const Signup =()=>{
                 onChange = {(e)=> setPassword(e.target.value)}
                 value={password}
             />
-            <button>sign Up </button>
+            <button>Sign Up </button>
         </form>
     )
 }
