@@ -14,7 +14,7 @@ export const Navbar = () => {
     <header>
     <div className="container">
     <Link to="/">
-        <h1>Gym Buddy</h1>
+        <h1>WORKOUT WISE</h1>
     </Link>
          <nav>
          {user && (

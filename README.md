@@ -1,1 +1,1 @@
-#MERN APP Workout Buddy
+#MERN APP Workout WISE
