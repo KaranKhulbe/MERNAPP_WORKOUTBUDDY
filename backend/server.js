@@ -4,12 +4,23 @@ const express = require('express')
 const mongoose = require('mongoose')
 const workoutRoutes = require('./routes/workouts')
 const userRoutes = require('./routes/user')
+const cookieParser = require("cookie-parser");
+const cors = require("cors");
 
 // express app
 const app = express()
 
 // middleware
-app.use(express.json())
+
+
+app.use(express.json());
+app.use(cookieParser());
+app.use(
+	cors({
+		origin: "*",
+		credentials: true,
+	})
+);
 
 app.use((req, res, next) => {
   console.log(req.path, req.method)
